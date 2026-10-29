@@ -1,0 +1,23 @@
+{
+  "machine": "AMD Ryzen 7 9800X3D (8 cores), 32 GB RAM, Windows 11",
+  "reference_machine_per_guide": "Xeon Platinum 8457C, 4 threads total, 30 s budget",
+  "threads": 4,
+  "thread_env": "OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4",
+  "protocol": "one fresh prediction process + one fresh scoring process, complete test bank",
+  "repeats_ms": [
+    {"predict": 222, "score": 121, "total": 344},
+    {"predict": 212, "score": 120, "total": 333},
+    {"predict": 210, "score": 122, "total": 333}
+  ],
+  "median_total_ms": 333,
+  "limit_ms": 30000,
+  "assets": {
+    "code/runs/model_bundle/model.npz": 26347,
+    "code/runs/model_bundle/meta.json": 154
+  },
+  "asset_total_bytes": 26501,
+  "asset_limit_bytes": 16777216,
+  "scope_note": "Guide excludes supplied data and ordinary source code from the asset budget; only learned weights/statistics/config are counted. model.npz alone (26347 B) is the loadable inference asset.",
+  "training_cost": "one 10-seed bundle ~192 s CPU (train.py); ablation refits ~490-515 s each; seed sweep ~1600 s total",
+  "measured": "2026-10-29"
+}

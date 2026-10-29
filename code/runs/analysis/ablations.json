@@ -1,0 +1,33 @@
+[
+  {
+    "variant": "hand",
+    "n_features": 23,
+    "val_accuracy": 89.09774436090225,
+    "seconds": 11.9
+  },
+  {
+    "variant": "emb_only",
+    "n_features": 1024,
+    "val_accuracy": 89.97493734335839,
+    "seconds": 490.0
+  },
+  {
+    "variant": "no_style",
+    "n_features": 1040,
+    "val_accuracy": 92.35588972431077,
+    "seconds": 515.0
+  },
+  {
+    "variant": "no_anchor",
+    "n_features": 1044,
+    "val_accuracy": 91.72932330827068,
+    "seconds": 491.9
+  },
+  {
+    "variant": "full",
+    "n_features": 1047,
+    "val_accuracy": 92.35588972431077,
+    "seconds": 0.0,
+    "frozen": true
+  }
+]

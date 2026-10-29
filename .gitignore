@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.DS_Store
+Thumbs.db
+build.log
+texput.log
+_reference_solution/
+REPRODUCE_GUIDE.md
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc

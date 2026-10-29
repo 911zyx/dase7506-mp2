@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "code/runs/model_bundle/model.npz",
+      "bytes": 26347,
+      "sha256": "e018153996394d3e2c83a5e5d1d1ad5734c16b4c3b98c16f1cfe3ceeda1cbcde",
+      "role": "learned weights w,b + train-split standardisation mu,sd + with_emb flag"
+    },
+    {
+      "path": "code/runs/model_bundle/meta.json",
+      "bytes": 154,
+      "sha256": "35f9498d5ac55d224229b63e992304c9e0633b51778ac86df3fa81be84dd0c93",
+      "role": "hyperparameter/seed configuration record"
+    }
+  ],
+  "total_bytes": 26501,
+  "total_mib": 0.025272369384765625,
+  "limit_mib": 16,
+  "scope": "Learned weights, transformations/statistics and configuration only, per the guide (supplied data and ordinary source code are excluded). No indexes, no embedded arrays in code, no ensemble members beyond the single weight-averaged linear model."
+}

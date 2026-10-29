@@ -1,0 +1,10 @@
+{
+  "variant": "emb",
+  "seeds": 10,
+  "epochs": 800,
+  "lr": 0.05,
+  "l2": 0.003,
+  "batch": 256,
+  "n_features": 1047,
+  "asset_bytes": 26347
+}

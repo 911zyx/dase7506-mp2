@@ -1,0 +1,33 @@
+{
+  "note": "Every run behind the numbers in REPORT.md / README.md. Raw per-run output lives in code/runs/analysis/ and code/runs/. Development-run entries from 2026-10-18 were recorded then and not re-run in the final session; they are marked accordingly.",
+  "runs": [
+    {"id": "mv-baseline", "date": "2026-10-29", "method": "majority vote, ties to lowest index, training-free",
+     "val": 86.2155388471178, "test": 69.16488222698072,
+     "raw": ["code/runs/validation-score-mv.json", "code/runs/test-score-mv.json"]},
+    {"id": "final-frozen", "date": "2026-10-29", "method": "linear ListNet, 23 hand + 1024 emb, 10-seed weight avg",
+     "val": 92.35588972431077, "test": 82.65524625267666,
+     "checkpoint": "code/runs/model_bundle",
+     "raw": ["code/runs/validation-score.json", "code/runs/test-score.json"]},
+    {"id": "ablation-hand", "date": "2026-10-29", "F": 23, "val": 89.09774436090225,
+     "raw": ["code/runs/analysis/ablations.json"]},
+    {"id": "ablation-emb-only", "date": "2026-10-29", "F": 1024, "val": 89.97493734335839,
+     "raw": ["code/runs/analysis/ablations.json"]},
+    {"id": "ablation-no-style", "date": "2026-10-29", "F": 1040, "val": 92.35588972431077,
+     "raw": ["code/runs/analysis/ablations.json"]},
+    {"id": "ablation-no-anchor", "date": "2026-10-29", "F": 1044, "val": 91.72932330827068,
+     "raw": ["code/runs/analysis/ablations.json"]},
+    {"id": "seed-sweep", "date": "2026-10-29",
+     "single_seed_val": [92.35588972431077, 89.72431077694236, 91.10275689223057, 91.8546365914787,
+                          90.85213032581454, 90.97744360902256, 90.47619047619048, 89.97493734335839,
+                          91.47869674185463, 90.97744360902256],
+     "ten_seed_average_val": 92.35588972431077,
+     "raw": ["code/runs/analysis/seeds.json"]},
+    {"id": "error-analysis", "date": "2026-10-29",
+     "raw": ["code/runs/analysis/analysis.md"],
+     "summary": "vote-pattern table, tie-break bias, calibration (contested separation 0.520, ECE 0.5236), weight tables"},
+    {"id": "dev-mlp-128", "date": "2026-10-18", "val_range": [91.35, 92.36], "verdict": "no gain over linear, rejected", "re_run": false},
+    {"id": "dev-deviation-embeddings", "date": "2026-10-18", "val_range": [87, 89], "verdict": "overfits, rejected", "re_run": false},
+    {"id": "dev-group-weighting", "date": "2026-10-18", "val_range": [91.73, 91.98], "verdict": "no gain, rejected", "re_run": false}
+  ],
+  "discipline": "train split only for fitting; validation for development/selection; test scored only after freezing, twice (mv baseline and final); ablations reported on validation only"
+}

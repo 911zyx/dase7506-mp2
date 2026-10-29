@@ -1,0 +1,20 @@
+{
+  "author": "Zhang Yaxing",
+  "student_id": "3036707458",
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "checkpoint": "code/runs/model_bundle/model.npz",
+  "checkpoint_sha256": "e018153996394d3e2c83a5e5d1d1ad5734c16b4c3b98c16f1cfe3ceeda1cbcde",
+  "implementation_sha256": "ee75c80f19045c4c01aff324f5fb8ac31ce96e38f7b76ccc91caa221c355a0e0",
+  "implementation_note": "sha256 of code/submission.py (frozen inference path, incl. feature builder)",
+  "model": "linear scorer over per-candidate features, ListNet group-softmax objective, 10-seed weight average",
+  "n_features": 1047,
+  "feature_blocks": {"handcrafted": 23, "unit_trace_embedding": 1024},
+  "hyperparameters": {"lr": 0.05, "l2": 0.003, "epochs": 800, "batch_groups": 256, "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]},
+  "training_data": "supplied train split only (4755 groups)",
+  "validation_accuracy": 92.35588972431077,
+  "test_accuracy": 82.65524625267666,
+  "baseline_test_accuracy": 69.16488222698072,
+  "selection": "Validation used for development and selection; test references used only for the two official scores after freezing. Ten-seed weight averaging chosen over single seeds (single-seed val 89.72-92.36).",
+  "determinism": "retraining reproduces model.npz bit-identically (same sha256) on the dev machine",
+  "fallback": "without --checkpoint, predict() degrades to deterministic majority vote (legal training-free baseline)"
+}

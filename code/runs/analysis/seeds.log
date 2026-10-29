@@ -1,0 +1,127 @@
+[seed 0] validation accuracy = 92.36%  (737/798)
+    pattern 3-1         139/ 151 =  92.1%
+    pattern 2-1-1        64/  88 =  72.7%
+    pattern 2-2          27/  34 =  79.4%
+    pattern 2-1+u        26/  28 =  92.9%
+    pattern 1-1-1-1      11/  20 =  55.0%
+    pattern 1-1-1+u      15/  20 =  75.0%
+    pattern 1-1+u        12/  14 =  85.7%
+    pattern 1+u           3/   3 = 100.0%
+    seed 0: 92.36%  (15s elapsed)
+[seed 1] validation accuracy = 89.72%  (716/798)
+    pattern 3-1         133/ 151 =  88.1%
+    pattern 2-1-1        60/  88 =  68.2%
+    pattern 2-2          26/  34 =  76.5%
+    pattern 2-1+u        26/  28 =  92.9%
+    pattern 1-1-1-1      10/  20 =  50.0%
+    pattern 1-1-1+u       8/  20 =  40.0%
+    pattern 1-1+u        10/  14 =  71.4%
+    pattern 1+u           3/   3 = 100.0%
+    seed 1: 89.72%  (31s elapsed)
+[seed 2] validation accuracy = 91.10%  (727/798)
+    pattern 3-1         137/ 151 =  90.7%
+    pattern 2-1-1        58/  88 =  65.9%
+    pattern 2-2          30/  34 =  88.2%
+    pattern 2-1+u        24/  28 =  85.7%
+    pattern 1-1-1-1      11/  20 =  55.0%
+    pattern 1-1-1+u      13/  20 =  65.0%
+    pattern 1-1+u        11/  14 =  78.6%
+    pattern 1+u           3/   3 = 100.0%
+    seed 2: 91.10%  (46s elapsed)
+[seed 3] validation accuracy = 91.85%  (733/798)
+    pattern 3-1         139/ 151 =  92.1%
+    pattern 2-1-1        62/  88 =  70.5%
+    pattern 2-2          28/  34 =  82.4%
+    pattern 2-1+u        25/  28 =  89.3%
+    pattern 1-1-1-1      13/  20 =  65.0%
+    pattern 1-1-1+u      11/  20 =  55.0%
+    pattern 1-1+u        12/  14 =  85.7%
+    pattern 1+u           3/   3 = 100.0%
+    seed 3: 91.85%  (62s elapsed)
+[seed 4] validation accuracy = 90.85%  (725/798)
+    pattern 3-1         137/ 151 =  90.7%
+    pattern 2-1-1        62/  88 =  70.5%
+    pattern 2-2          26/  34 =  76.5%
+    pattern 2-1+u        25/  28 =  89.3%
+    pattern 1-1-1-1      10/  20 =  50.0%
+    pattern 1-1-1+u      11/  20 =  55.0%
+    pattern 1-1+u        11/  14 =  78.6%
+    pattern 1+u           3/   3 = 100.0%
+    seed 4: 90.85%  (77s elapsed)
+[seed 5] validation accuracy = 90.98%  (726/798)
+    pattern 3-1         135/ 151 =  89.4%
+    pattern 2-1-1        63/  88 =  71.6%
+    pattern 2-2          26/  34 =  76.5%
+    pattern 2-1+u        23/  28 =  82.1%
+    pattern 1-1-1-1      13/  20 =  65.0%
+    pattern 1-1-1+u      11/  20 =  55.0%
+    pattern 1-1+u        12/  14 =  85.7%
+    pattern 1+u           3/   3 = 100.0%
+    seed 5: 90.98%  (92s elapsed)
+[seed 6] validation accuracy = 90.48%  (722/798)
+    pattern 3-1         131/ 151 =  86.8%
+    pattern 2-1-1        59/  88 =  67.0%
+    pattern 2-2          29/  34 =  85.3%
+    pattern 2-1+u        27/  28 =  96.4%
+    pattern 1-1-1-1      11/  20 =  55.0%
+    pattern 1-1-1+u      10/  20 =  50.0%
+    pattern 1-1+u        12/  14 =  85.7%
+    pattern 1+u           3/   3 = 100.0%
+    seed 6: 90.48%  (108s elapsed)
+[seed 7] validation accuracy = 89.97%  (718/798)
+    pattern 3-1         131/ 151 =  86.8%
+    pattern 2-1-1        56/  88 =  63.6%
+    pattern 2-2          29/  34 =  85.3%
+    pattern 2-1+u        23/  28 =  82.1%
+    pattern 1-1-1-1      11/  20 =  55.0%
+    pattern 1-1-1+u      13/  20 =  65.0%
+    pattern 1-1+u        12/  14 =  85.7%
+    pattern 1+u           3/   3 = 100.0%
+    seed 7: 89.97%  (123s elapsed)
+[seed 8] validation accuracy = 91.48%  (730/798)
+    pattern 3-1         137/ 151 =  90.7%
+    pattern 2-1-1        63/  88 =  71.6%
+    pattern 2-2          27/  34 =  79.4%
+    pattern 2-1+u        26/  28 =  92.9%
+    pattern 1-1-1-1      12/  20 =  60.0%
+    pattern 1-1-1+u      11/  20 =  55.0%
+    pattern 1-1+u        11/  14 =  78.6%
+    pattern 1+u           3/   3 = 100.0%
+    seed 8: 91.48%  (138s elapsed)
+[seed 9] validation accuracy = 90.98%  (726/798)
+    pattern 3-1         138/ 151 =  91.4%
+    pattern 2-1-1        60/  88 =  68.2%
+    pattern 2-2          30/  34 =  88.2%
+    pattern 2-1+u        26/  28 =  92.9%
+    pattern 1-1-1-1      10/  20 =  50.0%
+    pattern 1-1-1+u       8/  20 =  40.0%
+    pattern 1-1+u        11/  14 =  78.6%
+    pattern 1+u           3/   3 = 100.0%
+    seed 9: 90.98%  (154s elapsed)
+[10-seed weight average] validation accuracy = 92.36%  (737/798)
+    pattern 3-1         140/ 151 =  92.7%
+    pattern 2-1-1        64/  88 =  72.7%
+    pattern 2-2          29/  34 =  85.3%
+    pattern 2-1+u        25/  28 =  89.3%
+    pattern 1-1-1-1      13/  20 =  65.0%
+    pattern 1-1-1+u      12/  20 =  60.0%
+    pattern 1-1+u        11/  14 =  78.6%
+    pattern 1+u           3/   3 = 100.0%
+{
+  "single_seed_accuracies": [
+    92.35588972431077,
+    89.72431077694236,
+    91.10275689223057,
+    91.8546365914787,
+    90.85213032581454,
+    90.97744360902256,
+    90.47619047619048,
+    89.97493734335839,
+    91.47869674185463,
+    90.97744360902256
+  ],
+  "min": 89.72431077694236,
+  "max": 92.35588972431077,
+  "mean": 90.97744360902256,
+  "ten_seed_average": 92.35588972431077
+}
